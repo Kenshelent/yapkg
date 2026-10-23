@@ -1,4 +1,525 @@
 {
   "format": 1,
-  "packages": []
+  "packages": [
+    {
+      "id": "age",
+      "version": "1.2.1",
+      "name": "age",
+      "description": "Шифрование age",
+      "sha256": "02036602974854eabb1bef0128bf92a6498da72805e48dc9566234a571045d6f",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/age/1.2.1.yap"
+    },
+    {
+      "id": "apkg",
+      "version": "1.0.1",
+      "name": "apkg",
+      "description": "Пакетный менеджер Alice",
+      "sha256": "1834f74a18754940dbe713a1aef7d97466c66e281bf5e779af746deeb6cda6b1",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/apkg/1.0.1.yap"
+    },
+    {
+      "id": "aria2",
+      "version": "1.37.0",
+      "name": "aria2",
+      "description": "Многопоточная закачка",
+      "sha256": "37b388e6657b400d0329e6adf7d9b8f3fe83a8fb7024d075f5dc8d3e9e78bf1e",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/aria2/1.37.0.yap"
+    },
+    {
+      "id": "bash",
+      "version": "5.2.26",
+      "name": "bash",
+      "description": "GNU Bash",
+      "sha256": "3a179324974b680f1553009798efe9cb6696e5c8ce2e868b5694b089477f2b8e",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bash/5.2.26.yap"
+    },
+    {
+      "id": "bat",
+      "version": "0.24.0",
+      "name": "bat",
+      "description": "cat с подсветкой",
+      "sha256": "16a8eae4e3c64e2471b834bf83c6dd768b256539f95e8d590c3ec9e47442a533",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bat/0.24.0.yap"
+    },
+    {
+      "id": "bottom",
+      "version": "0.9.6",
+      "name": "bottom",
+      "description": "Системный монитор btm",
+      "sha256": "4f3d28a41046c9082c304b3baab46f3721f3629e17e20c64a5339f2e08036dd9",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bottom/0.9.6.yap"
+    },
+    {
+      "id": "btop",
+      "version": "1.4.7",
+      "name": "btop",
+      "description": "Мониторинг (tty)",
+      "sha256": "a064371b14e47d6760611a485ec1f996398a97d836499c5b091eeeec0bac97b1",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/btop/1.4.7.yap"
+    },
+    {
+      "id": "curl",
+      "version": "8.14.1",
+      "name": "curl",
+      "description": "HTTP клиент + CA",
+      "sha256": "3f171cffb9b00a49b93c9defb961e81566eb26c377471ba0629ac91128affc69",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/curl/8.14.1.yap"
+    },
+    {
+      "id": "darkhttpd",
+      "version": "1.16",
+      "name": "darkhttpd",
+      "description": "Простой HTTP server",
+      "sha256": "093827adeae594c6d47f7a4f684b468c7676113d720fd2f3c2bf816a90b1fe10",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/darkhttpd/1.16.yap"
+    },
+    {
+      "id": "delta",
+      "version": "0.17.0",
+      "name": "delta",
+      "description": "git diff с подсветкой",
+      "sha256": "5bb1268fc65fe67056a6052c888afe7bc67dbc9ce29820b91772534814293109",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/delta/0.17.0.yap"
+    },
+    {
+      "id": "dig",
+      "version": "9.18.27",
+      "name": "dig",
+      "description": "dig/host/nslookup",
+      "sha256": "b0b452cde397c6b92afa6a15371df7d498175e3baeb7bd43bc82d88326d5de8a",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dig/9.18.27.yap"
+    },
+    {
+      "id": "dropbear",
+      "version": "2022.82",
+      "name": "dropbear",
+      "description": "SSH server",
+      "sha256": "59eb2c3e99596f0e39d550e0d80ee1194bd2cf4cfe85270b60c6e3dbc6bafb1c",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dropbear/2022.82.yap"
+    },
+    {
+      "id": "dust",
+      "version": "1.0.0",
+      "name": "dust",
+      "description": "du с деревом",
+      "sha256": "ee6c1ede5c761abcf8ebc7e865cbc26ce14b189980d86414a45233dc8a1efc73",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dust/1.0.0.yap"
+    },
+    {
+      "id": "eza",
+      "version": "0.18.16",
+      "name": "eza",
+      "description": "Современный ls",
+      "sha256": "0fab0aa1513487729b9bfbe5ebff564210a04ed4d25314218cdfd9b0af5f5421",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/eza/0.18.16.yap"
+    },
+    {
+      "id": "fastfetch",
+      "version": "2.70.0",
+      "name": "fastfetch",
+      "description": "Системная информация",
+      "sha256": "61d0c202e00ba3ff0acba933611aa3d4208f81bd3a98c9aa761d23169ab0cf70",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fastfetch/2.70.0.yap"
+    },
+    {
+      "id": "fd",
+      "version": "10.1.0",
+      "name": "fd",
+      "description": "Простой find",
+      "sha256": "50f303c62eb8f9d2a0fc750b1f0f2f8a5c33414a45829fd42b60d052872c18c6",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fd/10.1.0.yap"
+    },
+    {
+      "id": "file",
+      "version": "5.45",
+      "name": "file",
+      "description": "Определение типа файла",
+      "sha256": "6e57bda1be4a67087f2d7d2b0a8d85dcd7351c991d810d2cbee888694740f2e5",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/file/5.45.yap"
+    },
+    {
+      "id": "findutils",
+      "version": "4.9.0",
+      "name": "findutils",
+      "description": "GNU find/xargs",
+      "sha256": "20f4a7ed1f4d1b986a1aef2714eb9a7eca9fbd67bb800b0319eb97c15c550847",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/findutils/4.9.0.yap"
+    },
+    {
+      "id": "fzf",
+      "version": "0.54.0",
+      "name": "fzf",
+      "description": "Fuzzy finder",
+      "sha256": "d01f8aa9c3e180a22fe0e5821efda2df2b800f1ca44fe1e048e8f6ca6005f48a",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fzf/0.54.0.yap"
+    },
+    {
+      "id": "gawk",
+      "version": "5.3.0",
+      "name": "gawk",
+      "description": "GNU AWK",
+      "sha256": "8748df544d4348c896e34ec30ab3d69e43f76ff473f495224453d96bd954547f",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/gawk/5.3.0.yap"
+    },
+    {
+      "id": "gnupg",
+      "version": "2.4.5",
+      "name": "gnupg",
+      "description": "GnuPG",
+      "sha256": "8c9e98adc3216aebeccf2274484d115ae754655cbce2cf93cd42caf86886d55c",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/gnupg/2.4.5.yap"
+    },
+    {
+      "id": "htop",
+      "version": "3.3.0",
+      "name": "htop",
+      "description": "Интерактивный top",
+      "sha256": "3fc4529d195c3229a70fb630b74a0a974bd756487b5702bd8c6cc093f969e490",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/htop/3.3.0.yap"
+    },
+    {
+      "id": "hyperfine",
+      "version": "1.18.0",
+      "name": "hyperfine",
+      "description": "Бенчмарк CLI",
+      "sha256": "8212136bc9fd2f5ccd7b07bf4fb4ee7039f0c135929200063352f6f17ef2e1af",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/hyperfine/1.18.0.yap"
+    },
+    {
+      "id": "iperf3",
+      "version": "3.17.1",
+      "name": "iperf3",
+      "description": "Bandwidth test",
+      "sha256": "e1d9ae2d5ee61c06a36198ed375e47640fbf0d6f9b9a3e6a6ce829d0c76349fb",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/iperf3/3.17.1.yap"
+    },
+    {
+      "id": "jq",
+      "version": "1.7.1",
+      "name": "jq",
+      "description": "JSON процессор",
+      "sha256": "f77ed4eed53b2dc58dbbf401998d726219ad2b29b4a8efc9d654b7fff6eafb80",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/jq/1.7.1.yap"
+    },
+    {
+      "id": "less",
+      "version": "643",
+      "name": "less",
+      "description": "Пейджер",
+      "sha256": "9ae070beb4087a02e97b3b1e6252029f063a9fe5abdb7bfa1dfad23571a5454d",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/less/643.yap"
+    },
+    {
+      "id": "lsof",
+      "version": "4.99.3",
+      "name": "lsof",
+      "description": "Открытые файлы/сокеты",
+      "sha256": "93ba3a04453292af261c521988590b432bc13bac21877688b9e63755bf6e8b38",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/lsof/4.99.3.yap"
+    },
+    {
+      "id": "make",
+      "version": "4.4.1",
+      "name": "make",
+      "description": "GNU Make",
+      "sha256": "a04e00a7be6631087b78cfff6e4e4f03fd8483c4e0ed45c144c6650242903098",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/make/4.4.1.yap"
+    },
+    {
+      "id": "micro",
+      "version": "2.0.13",
+      "name": "micro",
+      "description": "Простой терминальный редактор",
+      "sha256": "7c095ed5f6f76bcd36f98dd8c90a3879e5e7dc28d1282bfacfd677e5ec71ba77",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/micro/2.0.13.yap"
+    },
+    {
+      "id": "miniserve",
+      "version": "0.29.0",
+      "name": "miniserve",
+      "description": "HTTP file server",
+      "sha256": "26662e4c9d780429b0576302ec773cabc2717d209faaeb10f65a3d0c78fa4fc2",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/miniserve/0.29.0.yap"
+    },
+    {
+      "id": "mtr",
+      "version": "0.95",
+      "name": "mtr",
+      "description": "My Traceroute",
+      "sha256": "a047c00a9c0ff6a2def5bb9360cded20bdce70ed142d17e5598c02f343051f8b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/mtr/0.95.yap"
+    },
+    {
+      "id": "nano",
+      "version": "8.0",
+      "name": "nano",
+      "description": "Текстовый редактор",
+      "sha256": "1269325ce0a4d7e4580e5657a36f0feab04505666a70c3e79f0c58dfdafcd220",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/nano/8.0.yap"
+    },
+    {
+      "id": "ncdu",
+      "version": "1.20",
+      "name": "ncdu",
+      "description": "Анализ диска",
+      "sha256": "9a25e2e2363c6cff67158f101a8df2c4de7ce1b68de6a185ba74959cc323ab9b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ncdu/1.20.yap"
+    },
+    {
+      "id": "neofetch",
+      "version": "7.1.0",
+      "name": "neofetch",
+      "description": "Системная информация (+ musl bash)",
+      "sha256": "52673a9e5f3f79dffd8b957b11a4f8dc0cf8230b10839d1818b66372953b632f",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/neofetch/7.1.0.yap"
+    },
+    {
+      "id": "netcat",
+      "version": "1.226",
+      "name": "netcat",
+      "description": "netcat OpenBSD",
+      "sha256": "f1a489137f905507854ad30a7226989eb73be0b5c1b4522e17ba3695631084ad",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/netcat/1.226.yap"
+    },
+    {
+      "id": "node",
+      "version": "20.15.0",
+      "name": "node",
+      "description": "Node.js",
+      "sha256": "1b412404d36fde6f69a4bfc977c56a29c72eb65e6b01959f352275713808ea4b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/node/20.15.0.yap"
+    },
+    {
+      "id": "openssh",
+      "version": "9.7",
+      "name": "openssh",
+      "description": "OpenSSH client",
+      "sha256": "f50b5d2e540d577deb5802c4d4960f3adc760e03e80ad1675b4dbfbfed8e4c2e",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openssh/9.7.yap"
+    },
+    {
+      "id": "openssl",
+      "version": "3.3.2",
+      "name": "openssl",
+      "description": "OpenSSL CLI",
+      "sha256": "1cf25fd941b1dc3804e0a6818eec6f863015321ed5d879c3d3eb2acd2eeb4af9",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openssl/3.3.2.yap"
+    },
+    {
+      "id": "openvpn",
+      "version": "2.6.20",
+      "name": "openvpn",
+      "description": "OpenVPN client/server",
+      "sha256": "87bbfac7519644b26475b0c5f463e1e84ffe61c0e938ce1d500eb26a49370716",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openvpn/2.6.20.yap"
+    },
+    {
+      "id": "parallel",
+      "version": "20240422",
+      "name": "parallel",
+      "description": "GNU parallel",
+      "sha256": "033a6e73bc82546457093a4c1da0029968795838477df9d48e1ad850c8bc96d5",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/parallel/20240422.yap"
+    },
+    {
+      "id": "patch",
+      "version": "2.7.6",
+      "name": "patch",
+      "description": "GNU patch",
+      "sha256": "c85f9cab2f4794f2da1eb5aaf37eb42810ebc365a06d3055e395cd795b60d37c",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/patch/2.7.6.yap"
+    },
+    {
+      "id": "pip",
+      "version": "24.0",
+      "name": "pip",
+      "description": "pip для Python 3",
+      "sha256": "e8d12c5bce9fd85c3808e5a2714b6cbaa0c2f2cf0a8ea8b511f12b50fe2e2f5b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/pip/24.0.yap"
+    },
+    {
+      "id": "procps",
+      "version": "4.0.4",
+      "name": "procps",
+      "description": "ps/top/free/kill",
+      "sha256": "efa1d63d592113c1153902c9f7ed634a83e72d7cd25e89893586c9f81f41c08b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/procps/4.0.4.yap"
+    },
+    {
+      "id": "procs",
+      "version": "0.14.5",
+      "name": "procs",
+      "description": "Современный ps",
+      "sha256": "ac96d625d185a94d59bd26c627d673f2f974d51e443babb5a0176c96e2185502",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/procs/0.14.5.yap"
+    },
+    {
+      "id": "pv",
+      "version": "1.8.5",
+      "name": "pv",
+      "description": "Pipe viewer",
+      "sha256": "bec82fd802bff1530674b878ab1f915a4f4a3ec7de0ee4a2a193b784d3bd6c4c",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/pv/1.8.5.yap"
+    },
+    {
+      "id": "python3",
+      "version": "3.12.0",
+      "name": "python3",
+      "description": "Python 3",
+      "sha256": "e2b255b46c9a06ea2e7e47cd0efad62d46104d5c18ff24a3772e8ac950f7bb02",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/python3/3.12.0.yap"
+    },
+    {
+      "id": "rclone",
+      "version": "1.66.0",
+      "name": "rclone",
+      "description": "Синхронизация с облаками",
+      "sha256": "53affb50a2c707f63508834e32ea4cafac8045cf4ab450ec15c893d8ebff531f",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/rclone/1.66.0.yap"
+    },
+    {
+      "id": "restic",
+      "version": "0.16.4",
+      "name": "restic",
+      "description": "Бэкапы restic",
+      "sha256": "ea9d082bb1dd07d40d85ceebceda4afbfa61eb236e57dab78b8a7f44bf9164d5",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/restic/0.16.4.yap"
+    },
+    {
+      "id": "ripgrep",
+      "version": "14.1.0",
+      "name": "ripgrep",
+      "description": "Быстрый поиск по коду",
+      "sha256": "e9c50f6a01874e042fa1a88a0035395a3bb452e317dce5074e0748f777ca95fe",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ripgrep/14.1.0.yap"
+    },
+    {
+      "id": "rsync",
+      "version": "3.4.3",
+      "name": "rsync",
+      "description": "Синхронизация файлов",
+      "sha256": "17e7a7a7eaa9279a5517d70eec88c4da6cdba7e12751290677962aa65c875046",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/rsync/3.4.3.yap"
+    },
+    {
+      "id": "sd",
+      "version": "1.0.0",
+      "name": "sd",
+      "description": "sed для людей",
+      "sha256": "4ca9a99116d934cb40c8a1ce09359a5a9b58c97184dd099d8027458cee050bca",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sd/1.0.0.yap"
+    },
+    {
+      "id": "socat",
+      "version": "1.8.0",
+      "name": "socat",
+      "description": "Мультиплексный relay TCP/UDP/UNIX",
+      "sha256": "ad71ee1225c5484b46ce3df73e2db286d6017ba8e1e761bdfd4dcc81b3162832",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/socat/1.8.0.yap"
+    },
+    {
+      "id": "sqlite",
+      "version": "3.45.3",
+      "name": "sqlite",
+      "description": "SQLite CLI",
+      "sha256": "3e75e2dbcc1812f0edc80b44c8832d8519c340906a093a5b4ad49bf3bb60c96b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sqlite/3.45.3.yap"
+    },
+    {
+      "id": "sshpass",
+      "version": "1.10",
+      "name": "sshpass",
+      "description": "SSH с паролем в CLI",
+      "sha256": "aff7ced44f0d15851d1f8953f61dbd6ae64d60446cf69f809efa6422cae36db6",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sshpass/1.10.yap"
+    },
+    {
+      "id": "strace",
+      "version": "6.9",
+      "name": "strace",
+      "description": "Трассировка syscalls",
+      "sha256": "601432c6b87ce17ad85af665a71f8ec2a3d431b44cb573fb6eb2e7672da2843b",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/strace/6.9.yap"
+    },
+    {
+      "id": "tcpdump",
+      "version": "4.99.4",
+      "name": "tcpdump",
+      "description": "Сниффер",
+      "sha256": "627efe7d961c80d99482c4be7428be804ccc91a488358d65349b60a94a5f4f33",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tcpdump/4.99.4.yap"
+    },
+    {
+      "id": "tig",
+      "version": "2.5.10",
+      "name": "tig",
+      "description": "TUI для git",
+      "sha256": "7d4b08e9c6b945ce1e5ee61ac485bb93c6f4cb717ac843a71a9896eb179f226f",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tig/2.5.10.yap"
+    },
+    {
+      "id": "tree",
+      "version": "2.1.3",
+      "name": "tree",
+      "description": "Дерево каталогов",
+      "sha256": "a072f66c98c608c827ad97aaa0d79e0ceab7890e9dde02b89d221b2eef3c9df1",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tree/2.1.3.yap"
+    },
+    {
+      "id": "unzip",
+      "version": "6.0",
+      "name": "unzip",
+      "description": "Распаковка ZIP",
+      "sha256": "dda8af294564d6e3a5e1d3b709a83a582a35277a964374dcf83f192a7f513c80",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/unzip/6.0.yap"
+    },
+    {
+      "id": "wget",
+      "version": "1.24.5",
+      "name": "wget",
+      "description": "HTTP/FTP загрузчик",
+      "sha256": "9b2b1ec1641000546ade4eab92b53b31464e92a9ad3fe7cf473e26b2a3c69f15",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/wget/1.24.5.yap"
+    },
+    {
+      "id": "wireguard",
+      "version": "1.0.0",
+      "name": "wireguard",
+      "description": "WireGuard (userspace)",
+      "sha256": "0329e28d46c2bc4397dad8d818a6b093655fbb5b2049ff70372f1617a9ff1ec2",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/wireguard/1.0.0.yap"
+    },
+    {
+      "id": "xz",
+      "version": "5.6.2",
+      "name": "xz",
+      "description": "Сжатие XZ/LZMA",
+      "sha256": "8e7b06da01d6d13a9d4a92fea1faaced66aa078dea12e482b2103e4b7b220a82",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/xz/5.6.2.yap"
+    },
+    {
+      "id": "zip",
+      "version": "3.0",
+      "name": "zip",
+      "description": "Упаковка ZIP",
+      "sha256": "6c9069f64496cfb33343382dd46e58d93247093baa67e25b3b427a33e2018081",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zip/3.0.yap"
+    },
+    {
+      "id": "zsh",
+      "version": "5.9.2",
+      "name": "zsh",
+      "description": "Z shell (static musl)",
+      "sha256": "6e575f08ea09a466fdad5a409b81d90d9e0e1e85cb259de5dc91028fe0287507",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zsh/5.9.2.yap"
+    },
+    {
+      "id": "zstd",
+      "version": "1.5.6",
+      "name": "zstd",
+      "description": "Сжатие Zstandard",
+      "sha256": "52c8057caae83e2ae1fadb816faadc79a45714374805526cb2bf1a216c07b7d6",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zstd/1.5.6.yap"
+    }
+  ]
 }
