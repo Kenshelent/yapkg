@@ -474,6 +474,14 @@
       "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-airplay/1.2.0.yap"
     },
     {
+      "id": "station-airplay",
+      "version": "1.4.0",
+      "name": "Station airplay",
+      "description": "AirPlay 2 receiver: Light 2, Midi, Station 2 and Mini 3 Pro; shared audio with Alice on Station 2/Mini 3 Pro.",
+      "sha256": "06269af7c6a33e93651f724dfdb1ffba7d5f95c30584d292d9bbc0966034cac2",
+      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-airplay/1.4.0.yap"
+    },
+    {
       "id": "station-volume",
       "version": "1.0.0",
       "name": "Station volume",
@@ -643,7 +651,7 @@
     "soloist-lite1": "1.0.1",
     "sqlite": "3.45.3",
     "sshpass": "1.10",
-    "station-airplay": "1.2.0",
+    "station-airplay": "1.4.0",
     "station-volume": "1.0.0",
     "strace": "6.9",
     "tcpdump": "4.99.4",
